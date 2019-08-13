@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Event_Detail">
+
+    <ImageView
+        android:id="@+id/image_detail"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:background="@color/background_color"/>
+
+    <TextView
+        android:id="@+id/title_detail"
+        android:layout_below="@id/image_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingStart="25dp"
+        android:paddingEnd="25dp"
+        android:textAllCaps="true"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="@string/event_name"/>
+
+    <TextView
+        android:id="@+id/desc_detail"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/title_detail"
+        android:paddingStart="25dp"
+        android:paddingEnd="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/event_description"/>
+
+    <Button
+        android:id="@+id/bookbtn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:elevation="8dp"
+        android:text="@string/book"
+        android:textSize="20sp"
+        android:background="@color/colorAccent"
+        android:textColor="@color/background_color"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Eveorg</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Nisarg Bhalavat</string>
+    <string name="nav_header_subtitle">nisargbhalavat98@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="logo">eveOrg</string>
+
+    <string name="sap_id">SAP ID</string>
+    <string name="confirm_sap_id">Confirm SAP ID</string>
+    <string name="emailid">Email ID</string>
+    <string name="password">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="show_pwd">Show Password</string>
+    <string name="hide_pwd">Hide Password</string>
+    <string name="forgot">Forgot password?</string>
+    <string name="newUser">Not a Member yet? Sign Up here.</string>
+    <string name="fullName">Full Name</string>
+    <string name="mobileNumber">Mobile Number</string>
+    <string name="location">Location</string>
+    <string name="confirmPassword">Confirm Password</string>
+    <string name="terms_conditions">By clicking SignUp you agree to all the Terms and Conditions.</string>
+    <string name="signUp">SIGN UP</string>
+    <string name="already_user">Already have Account? Login here.</string>
+    <string name="registered_emailid">Please enter your Registered Details:</string>
+    <string name="submit">SUBMIT</string>
+    <string name="back">BACK</string>
+    <string name="title_activity_navigation__drawer">Eveorg</string>
+    <string name="dummy_no">70011016008</string>
+    <string name="home">Home</string>
+    <string name="search">Search</string>
+    <string name="profile">My Account</string>
+    <string name="settings">Settings</string>
+    <string name="sign_out">Sign Out</string>
+
+    <string name="registered_email">Registered Email</string>
+    <string name="name">Registered Name</string>
+    <string name="account">My Account</string>
+    <string name="registered_sap_id">Registered SAP ID</string>
+    <string name="mobile">8511559875</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="change_password">Change Password</string>
+    <string name="version">Version 1.0</string>
+    <string name="made_in_india">Made in India with</string>
+    <string name="eveorg">EveOrg</string>
+    <string name="enter_new_password">Enter new Password</string>
+    <string name="about_eveorg">About Eveorg</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="click_here_to_update_password">Click here to update password</string>
+    <string name="we_are_team_eveorg">We are Team EveOrg.</string>
+    <string name="book">Book</string>
+    <string name="event_name">Event Name</string>
+    <string name="event_description">Event Description</string>
+</resources>

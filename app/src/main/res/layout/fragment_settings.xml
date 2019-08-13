@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:paddingStart="20dp"
+    android:paddingEnd="30dp"
+    tools:context=".fragment_settings">
+
+    <TextView
+        android:id="@+id/profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_marginTop="80dp"
+        android:paddingBottom="5dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"
+        android:text="@string/settings"/>
+
+    <View
+        android:id="@+id/profile_underline"
+        android:layout_width="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="3dp"
+        android:layout_below="@id/profile"
+        android:background="@color/black" />
+
+    <Button
+        android:id="@+id/change_sett"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:textAllCaps="false"
+        android:textColor="@color/dark_gray"
+        android:textSize="20sp"
+        android:layout_below="@id/profile_underline"
+        android:background="@android:color/transparent"
+        android:drawableTint="@color/dark_gray"
+        android:layout_marginTop="35dp"
+        android:drawablePadding="5dp"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:drawableEnd="@drawable/ic_view_headline_white_24dp"
+        android:text="@string/change_password"/>
+
+    <Button
+        android:id="@+id/clickpass"
+        android:layout_width="match_parent"
+        android:background="@android:color/transparent"
+        android:layout_height="wrap_content"
+        android:text="@string/click_here_to_update_password"
+        android:textColor="@color/red"
+        android:textStyle="bold"
+        android:paddingStart="30dp"
+        android:paddingEnd="30dp"
+        android:gravity="center_vertical"
+        android:textSize="17sp"
+        android:textAllCaps="false"
+        android:visibility="gone"
+        android:layout_below="@id/change_sett"/>
+
+    <Button
+        android:id="@+id/about_us"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/dark_gray"
+        android:textSize="20sp"
+        android:layout_below="@id/clickpass"
+        android:background="@android:color/transparent"
+        android:drawableTint="@color/dark_gray"
+        android:textAllCaps="false"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:gravity="center_vertical"
+        android:layout_marginTop="35dp"
+        android:drawableEnd="@drawable/ic_view_headline_white_24dp"
+        android:paddingBottom="10dp"
+        android:text="@string/about_eveorg"/>
+
+    <TextView
+        android:id="@+id/about_us_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/we_are_team_eveorg"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:layout_marginTop="25dp"
+        android:gravity="center_vertical"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:visibility="gone"
+        android:layout_below="@id/about_us"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:drawableEnd="@drawable/ic_like"
+        android:drawablePadding="8dp"
+        android:layout_marginBottom="5dp"
+        android:layout_above="@id/bottom"
+        android:text="@string/made_in_india"/>
+
+    <TextView
+        android:id="@+id/bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_alignParentBottom="true"
+        android:textSize="14sp"
+        android:layout_marginBottom="40dp"
+        android:text="@string/version"/>
+
+</RelativeLayout>
